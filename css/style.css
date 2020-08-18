@@ -404,3 +404,13 @@ section.about-meal p{
     margin-bottom: 4rem;
     line-height: 1.7;
 }
+
+section.our-services{
+   background: var(--light);
+}
+
+section.our-services .service-card{
+    background: var(--heaven);
+    text-align: center;
+    padding: 2rem;
+ }
