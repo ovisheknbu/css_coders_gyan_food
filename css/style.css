@@ -409,8 +409,34 @@ section.our-services{
    background: var(--light);
 }
 
+section.our-services .card-wrapper{
+    margin-right: -2rem;
+    margin-top: 8rem;
+} 
 section.our-services .service-card{
     background: var(--heaven);
     text-align: center;
     padding: 2rem;
+    padding-top: 4rem;
+    position: relative;
+    margin-right: 2rem;
+    border-radius: 4px;
+ }
+
+ section.our-services .service-card .icon {
+     position: absolute;
+     top: -40px;
+     left: 50%;
+     transform: translateX(-50%);
+ }
+
+ section.our-services .service-card h2{
+    font-family: "Raleway-bold";
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+ }
+
+ section.our-services .service-card p{
+     line-height: 1.6;
+     margin-bottom: 1rem;
  }
